@@ -17,6 +17,18 @@ people who enjoy using Sphinx but work with languages other than Python.
 The system relies on the Doxygen’s xml output.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/breathe-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/breathe-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/breathe-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/breathe-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/breathe-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/breathe-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/breathe/badges/version.svg)](https://anaconda.org/conda-forge/breathe)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/breathe/badges/downloads.svg)](https://anaconda.org/conda-forge/breathe)
+
 Installing breathe
 ==================
 
@@ -72,18 +84,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/breathe-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/breathe-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/breathe-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/breathe-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/breathe-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/breathe-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/breathe/badges/version.svg)](https://anaconda.org/conda-forge/breathe)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/breathe/badges/downloads.svg)](https://anaconda.org/conda-forge/breathe)
 
 
 Updating breathe-feedstock
