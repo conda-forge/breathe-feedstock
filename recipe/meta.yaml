@@ -1,6 +1,6 @@
 {% set name = "breathe" %}
-{% set version = "4.2.0" %}
-{% set sha256 = "978eba211d8602122d58857d56ffa7dc454b2743402ad37b0fa05a22ba477c54" %}
+{% set version = "4.6.0" %}
+{% set sha256 = "9db2ba770f824da323b9ea3db0b98d613a4e0af094c82ccb0a82991da81b736a" %}
 
 package:
   name: {{ name|lower }}
@@ -47,3 +47,4 @@ about:
 extra:
   recipe-maintainers:
     - SylvainCorlay
+    - JohanMabille
