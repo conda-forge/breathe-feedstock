@@ -1,0 +1,30 @@
+From 2b2f87d839382b06431ee400b7ffb3b9c7f147e9 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Juan=20Pedro=20Bol=C3=ADvar=20Puente?= <raskolnikov@gnu.org>
+Date: Sat, 6 May 2017 18:31:12 +0200
+Subject: [PATCH] Fix sometimes nodes without a parent would be generated
+
+This fixes the bug discussed here, where sometimes doc compilation would
+crash when using recent Sphinx:
+
+    https://github.com/sphinx-doc/sphinx/issues/3709
+---
+ breathe/renderer/sphinxrenderer.py | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/breathe/renderer/sphinxrenderer.py b/breathe/renderer/sphinxrenderer.py
+index 7d5ef9e..7586ccc 100644
+--- a/breathe/renderer/sphinxrenderer.py
++++ b/breathe/renderer/sphinxrenderer.py
+@@ -1091,7 +1091,8 @@ class SphinxRenderer(object):
+         #
+         # If there is no description then render then term by itself
+         if nodelist:
+-            nodelist[0].children = [term, separator] + nodelist[0].children
++            nodelist[0].insert(0, term)
++            nodelist[0].insert(1, separator)
+         else:
+             nodelist = [term]
+ 
+-- 
+2.7.4
+
