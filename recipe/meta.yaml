@@ -1,6 +1,6 @@
 {% set name = "breathe" %}
-{% set version = "4.6.0" %}
-{% set sha256 = "9db2ba770f824da323b9ea3db0b98d613a4e0af094c82ccb0a82991da81b736a" %}
+{% set version = "4.7.0" %}
+{% set sha256 = "e42617f175f331961602a3988f3b38b66478f0f02b2a9b27e338f7dbd78d3638" %}
 
 package:
   name: {{ name|lower }}
@@ -10,11 +10,9 @@ source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
-  patches:
-    - 0001-Fix-sometimes-nodes-without-a-parent-would-be-genera.patch
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
