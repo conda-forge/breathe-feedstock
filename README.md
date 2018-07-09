@@ -20,14 +20,15 @@ The system relies on the Doxygen’s xml output.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/breathe-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/breathe-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/breathe-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/breathe-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/breathe-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/breathe-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/breathe-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/breathe-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/breathe/badges/version.svg)](https://anaconda.org/conda-forge/breathe)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/breathe/badges/downloads.svg)](https://anaconda.org/conda-forge/breathe)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-breathe-green.svg)](https://anaconda.org/conda-forge/breathe) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/breathe.svg)](https://anaconda.org/conda-forge/breathe) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/breathe.svg)](https://anaconda.org/conda-forge/breathe) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/breathe.svg)](https://anaconda.org/conda-forge/breathe) |
 
 Installing breathe
 ==================
@@ -72,6 +73,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
