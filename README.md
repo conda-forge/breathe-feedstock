@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About breathe
 =============
 
@@ -24,8 +20,17 @@ The system relies on the Doxygen’s xml output.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/breathe-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/breathe-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3755&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/breathe-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
