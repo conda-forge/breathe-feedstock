@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: True # [py<35]
+  skip: True  # [py<35]
   number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -34,6 +34,7 @@ test:
 about:
   home: https://github.com/michaeljones/breathe
   license: BSD
+  license_file: LICENSE
   summary: 'An extension to reStructuredText and Sphinx to be able to read and render the Doxygen xml output.'
 
   description: |
