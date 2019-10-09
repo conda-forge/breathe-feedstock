@@ -12,9 +12,9 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  noarch: python
+  skip: True # [py<35]
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
@@ -23,9 +23,9 @@ requirements:
     - setuptools
   run:
     - python
-    - sphinx >=1.4
-    - docutils >=0.5
-    - six >=1.4
+    - sphinx >=2.0
+    - docutils >=0.12
+    - six >=1.9
 
 test:
   imports:
@@ -50,3 +50,4 @@ extra:
   recipe-maintainers:
     - SylvainCorlay
     - JohanMabille
+    - williamjamir
