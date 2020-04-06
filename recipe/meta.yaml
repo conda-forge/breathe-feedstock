@@ -33,7 +33,9 @@ test:
 
 about:
   home: https://github.com/michaeljones/breathe
-  license: BSD
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
   summary: An extension to reStructuredText and Sphinx to be able to read and render the Doxygen xml output.
 
   description: |
