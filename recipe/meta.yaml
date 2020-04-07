@@ -35,6 +35,8 @@ about:
   home: https://github.com/michaeljones/breathe
   license: BSD-3-Clause
   license_family: BSD
+  # License file can be removed from repo when PR 492 gets resolved
+  # https://github.com/michaeljones/breathe/pull/492
   license_file: LICENSE
   summary: An extension to reStructuredText and Sphinx to be able to read and render the Doxygen xml output.
 
