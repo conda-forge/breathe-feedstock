@@ -1,6 +1,6 @@
 {% set name = "breathe" %}
-{% set version = "4.13.0" %}
-{% set sha256 = "d7f5d18153e43b2fac086fe684acfb7c3d32f22a83a520cb3867b37d310bba23" %}
+{% set version = "4.14.2" %}
+{% set sha256 = "abc65cdc4316d2bbeafb986ffbfb3538cc6c2fcc7a403d2881f000e7a8f742ee" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -33,8 +33,12 @@ test:
 
 about:
   home: https://github.com/michaeljones/breathe
-  license: BSD
-  summary: 'An extension to reStructuredText and Sphinx to be able to read and render the Doxygen xml output.'
+  license: BSD-3-Clause
+  license_family: BSD
+  # License file can be removed from repo when PR 492 gets resolved
+  # https://github.com/michaeljones/breathe/pull/492
+  license_file: LICENSE
+  summary: An extension to reStructuredText and Sphinx to be able to read and render the Doxygen xml output.
 
   description: |
     Breathe provides a bridge between the Sphinx and Doxygen documentation systems.
@@ -50,3 +54,4 @@ extra:
   recipe-maintainers:
     - SylvainCorlay
     - JohanMabille
+    - hmaarrfk
