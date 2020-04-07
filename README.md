@@ -3,7 +3,7 @@ About breathe
 
 Home: https://github.com/michaeljones/breathe
 
-Package license: BSD
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
@@ -124,4 +124,5 @@ Feedstock Maintainers
 
 * [@JohanMabille](https://github.com/JohanMabille/)
 * [@SylvainCorlay](https://github.com/SylvainCorlay/)
+* [@hmaarrfk](https://github.com/hmaarrfk/)
 
