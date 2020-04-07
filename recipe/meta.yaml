@@ -1,6 +1,6 @@
 {% set name = "breathe" %}
-{% set version = "4.14.2" %}
-{% set sha256 = "abc65cdc4316d2bbeafb986ffbfb3538cc6c2fcc7a403d2881f000e7a8f742ee" %}
+{% set version = "4.15.0" %}
+{% set sha256 = "6686f4d0e966ed3dd6dd65c79a533796bca4cf9c3d338c75bdb0b75da50fb38e" %}
 
 package:
   name: {{ name|lower }}
@@ -23,9 +23,9 @@ requirements:
     - setuptools
   run:
     - python
-    - sphinx >=1.4
-    - docutils >=0.5
-    - six >=1.4
+    - sphinx >=3
+    - docutils >=0.12
+    - six >=1.9
 
 test:
   imports:
@@ -35,8 +35,6 @@ about:
   home: https://github.com/michaeljones/breathe
   license: BSD-3-Clause
   license_family: BSD
-  # License file can be removed from repo when PR 492 gets resolved
-  # https://github.com/michaeljones/breathe/pull/492
   license_file: LICENSE
   summary: An extension to reStructuredText and Sphinx to be able to read and render the Doxygen xml output.
 
