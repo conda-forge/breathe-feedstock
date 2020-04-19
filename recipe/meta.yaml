@@ -23,7 +23,7 @@ requirements:
     - setuptools
   run:
     - python
-    - sphinx >=3
+    - sphinx 3.0
     - docutils >=0.12
     - six >=1.9
 
