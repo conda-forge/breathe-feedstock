@@ -1,6 +1,6 @@
 {% set name = "breathe" %}
-{% set version = "4.18.1" %}
-{% set sha256 = "03f56cc6dd0bf5ac3d8e8eb380d212257e16de79fce5e6186afd5c1835561e22" %}
+{% set version = "4.19.0" %}
+{% set sha256 = "db2583d8586e891bef63288f8ff3d805622507772a7116dd9aeec564a7155ebe" %}
 
 package:
   name: {{ name|lower }}
