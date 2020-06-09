@@ -21,9 +21,11 @@ requirements:
     - pip
     - python
     - setuptools
+    # Detects sphinx at build time
+    - sphinx >=3.0,<3.2
   run:
     - python
-    - sphinx 3.0
+    - sphinx >=3.0,<3.2
     - docutils >=0.12
     - six >=1.9
 
