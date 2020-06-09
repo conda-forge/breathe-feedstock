@@ -1,6 +1,6 @@
 {% set name = "breathe" %}
-{% set version = "4.18.1" %}
-{% set sha256 = "03f56cc6dd0bf5ac3d8e8eb380d212257e16de79fce5e6186afd5c1835561e22" %}
+{% set version = "4.19.1" %}
+{% set sha256 = "967dd1ce88bbaa9499cd7f2afe091d8f4127a24d397b13fec7780ffcee3da195" %}
 
 package:
   name: {{ name|lower }}
@@ -21,9 +21,11 @@ requirements:
     - pip
     - python
     - setuptools
+    # Detects sphinx at build time
+    - sphinx >=3.0,<3.2
   run:
     - python
-    - sphinx 3.0
+    - sphinx >=3.0,<3.2
     - docutils >=0.12
     - six >=1.9
 
