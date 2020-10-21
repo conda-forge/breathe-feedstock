@@ -5,9 +5,13 @@ Home: https://github.com/michaeljones/breathe
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/breathe-feedstock/blob/master/LICENSE.txt)
 
 Summary: An extension to reStructuredText and Sphinx to be able to read and render the Doxygen xml output.
+
+Development: https://github.com/michaeljones/breathe
+
+Documentation: http://breathe.readthedocs.io/
 
 Breathe provides a bridge between the Sphinx and Doxygen documentation systems.
 
