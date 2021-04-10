@@ -19,12 +19,12 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools
     # Detects sphinx at build time
     - sphinx >=3.0,<3.6
   run:
-    - python
+    - python >=3.6
     - sphinx >=3.0,<3.5
     - docutils >=0.12
     - six >=1.9
