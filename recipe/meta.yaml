@@ -22,7 +22,7 @@ requirements:
     - python >=3.6
     - setuptools
     # Detects sphinx at build time
-    # - sphinx >=3.0,<5
+    - sphinx >=3.0,<5
   run:
     - python >=3.6
     - sphinx >=3.0,<5
