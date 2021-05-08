@@ -1,6 +1,6 @@
 {% set name = "breathe" %}
-{% set version = "4.29.2" %}
-{% set sha256 = "1c415044d92f6500e6e98bed3fb4b62c240f33a6a3e27388734c679c0c6760b2" %}
+{% set version = "4.30.0" %}
+{% set sha256 = "363dec85abc0c4b3f22628b0cf82cc2dc46c4397d8a18312d1a7d1365d49b014" %}
 
 package:
   name: {{ name|lower }}
@@ -27,7 +27,9 @@ requirements:
     - python >=3.6
     - sphinx >=3.0,<5
     - docutils >=0.12
-    - six >=1.9
+    - Jinja2 >=2.7.3
+    - MarkupSafe >=0.23
+    - Pygments >=1.6
 
 test:
   imports:
