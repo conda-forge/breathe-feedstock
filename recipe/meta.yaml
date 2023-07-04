@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -22,10 +22,10 @@ requirements:
     - python >=3.6
     - setuptools
     # Detects sphinx at build time
-    - sphinx >=4.0,<6.0.0a
+    - sphinx >=4.0,<7.0.0a
   run:
     - python >=3.6
-    - sphinx >=4.0,<6.0.0a
+    - sphinx >=4.0,<7.0.0a
     - docutils >=0.12
     - Jinja2 >=2.7.3
     - MarkupSafe >=0.23
