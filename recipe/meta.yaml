@@ -38,7 +38,7 @@ test:
     - breathe
 
 about:
-  home: https://github.com/michaeljones/breathe
+  home: https://github.com/breathe-doc/breathe
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -52,7 +52,7 @@ about:
     people who enjoy using Sphinx but work with languages other than Python.
     The system relies on the Doxygen’s xml output.
   doc_url: http://breathe.readthedocs.io/
-  dev_url: https://github.com/michaeljones/breathe
+  dev_url: https://github.com/breathe-doc/breathe
 
 extra:
   recipe-maintainers:
