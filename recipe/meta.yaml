@@ -18,7 +18,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - flit-core
+    - flit-core >=3.7
     # Detects sphinx at build time
     - sphinx >=4.0,<9.0.0a0
   run:
