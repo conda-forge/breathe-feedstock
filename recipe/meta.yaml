@@ -1,6 +1,6 @@
 {% set name = "breathe" %}
-{% set version = "4.35.0" %}
-{% set sha256 = "5165541c3c67b6c7adde8b3ecfe895c6f7844783c4076b6d8d287e4f33d62386" %}
+{% set version = "4.36.0" %}
+{% set sha256 = "14860b73118ac140b7a3f55446890c777d1b67149cb024279fe3710dad7f535c" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 4
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
