@@ -1,5 +1,4 @@
 {% set version = "4.36.0" %}
-{% set sha256 = "14860b73118ac140b7a3f55446890c777d1b67149cb024279fe3710dad7f535c" %}
 
 package:
   name: breathe
@@ -7,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/b/breathe/breathe-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 14860b73118ac140b7a3f55446890c777d1b67149cb024279fe3710dad7f535c
 
 build:
   noarch: python
