@@ -1,14 +1,12 @@
-{% set name = "breathe" %}
 {% set version = "4.36.0" %}
 {% set sha256 = "14860b73118ac140b7a3f55446890c777d1b67149cb024279fe3710dad7f535c" %}
 
 package:
-  name: {{ name|lower }}
+  name: breathe
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/b/breathe/breathe-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -20,7 +18,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - setuptools
+    - flit-core
     # Detects sphinx at build time
     - sphinx >=4.0,<9.0.0a0
   run:
