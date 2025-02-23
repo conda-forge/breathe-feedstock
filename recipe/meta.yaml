@@ -22,7 +22,7 @@ requirements:
     - sphinx >=7.2,<9.0.0a0
   run:
     - python >={{ python_min }}
-    - sphinx >=4.0,<9.0.0a0
+    - sphinx >=7.2,<9.0.0a0
     - docutils >=0.12
     - Jinja2 >=2.7.3
     - MarkupSafe >=0.23
