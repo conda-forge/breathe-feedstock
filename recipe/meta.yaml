@@ -1,4 +1,4 @@
-{% set version = "5.0.0" %}
+{% set version = "5.1.0" %}
 
 package:
   name: breathe
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/b/breathe/breathe-{{ version }}.tar.gz
-  sha256: 9e5c4b2538a3eef9fbcfe9dd966f8f3171d4fd6cbe4976d84578d05f48e09fc3
+  sha256: ff56af8bfd0b50ebf10c81a07b8a5739787eb015d26b4ba162b6983d6e17c7c3
 
 build:
   noarch: python
